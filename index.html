@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Java – EagleCraft</title>
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("service-worker.js")
+                .then(() => console.log("Service Worker aktivován"))
+                .catch(err => console.log("Chyba:", err));
+        }
+    </script>
+</head>
+<body>
+    <h1>Vítej v Minecraft Java EagleCraft!</h1>
+    <p>Tato aplikace podporuje PWA a offline režim.</p>
+</body>
+</html>

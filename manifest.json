@@ -1,0 +1,21 @@
+{
+  "name": "Minecraft Java – Eagle Craft",
+  "short_name": "EagleCraft",
+  "start_url": "https://m.eaglercraft.com/",
+  "scope": "https://m.eaglercraft.com/",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "theme_color": "#2196F3",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
